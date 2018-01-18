@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="autor" content="ricky rivas">
+    <meta name="keywords" content="html,css,xml,javascript">
+    <meta name="description" content="Hoja de vida">
+    <meta name="viewport" content="width=divice-width,user-scalable=no">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <header>
+    <!--<h1><a href="index.html"><img src="images/logo.png" alt="Logo" width="100px" height="50px"></a></h1>-->
+    <a href="index.html"><img src="images/logo2.svg" alt="Logo" width="100px" height="50px"></a><br>
+    <h1>Hoja de Vida</h1>
+    <h2>Datos Personales</h2>
+    <h3>Nombre: Ricky Jessy</h3>
+    <h3>Apellido: Rivas Garcia</h3>
+    <h3>Fecha de Nacimiento: 02 | 04 | 88</h3>
+    <h3>Lugar de Nacimiento: Managua | Managua</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a title="Inicio" href="./index.html">Inicio</a></li>
+        <li><a title="Educaci&oacute;n" href="./educacion.html">Educacion</a></li>
+        <li><a title="Experiencia" href="./experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+      <section>
+      <h2>Educaci&oacute;n</h2>
+      <table border="2",cellpadding="0",cellspacing="0">
+        <thead>
+          <tr>
+            <th>AÑO</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culmino?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2016</td>
+            <td>Instituto Geografico Nacional</td>
+            <td>Curso e-learning</td>
+            <td>si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>UNI</td>
+            <td>Managua, Nicaragua</td>
+            <td>si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>CENTROGEO</td>
+            <td>Curso e-learning</td>
+            <td>si</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Agregar Estudios</h2>
+      <fieldset>
+        <legend>Estudios</legend>
+        <form autocomplete="on" name="Estudios">
+          <p>
+            <label for="Año">Año: </label>
+          <select name="Año">
+            <option value="1">2010</option>
+            <option value="1">2011</option>
+            <option value="1">2012</option>
+            <option value="1">2013</option>
+            <option value="1">2014</option>
+            <option value="1">2015</option>
+            <option value="1">2016</option>
+            <option value="1">2017</option>
+            <option value="1">2018</option>
+          </select>
+          </p>
+          <p>
+            <label for="Institucion">Institucion: </label>
+            <input type="text" name="Instituto" placeholder="Instituto" required>
+          </p>
+          <p>
+            <label for="Lugar">Lugar: </label><br>
+            <textarea name="Lugar" id="Lugar" cols="30" rows="3"></textarea>
+          </p>
+          <p>
+            <label for="Culmino">¿Culmino?</label>
+              <input type="radio" name="Culmino"> SI
+              <input type="radio" name="Culmino"> NO
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
+        </form>
+      </fieldset>
+    </section>
+    <footer>
+      <h3>Derechos Reservados</h3>
+      <ul>
+        <li><strong>Email:</strong><a href="mailto:ricky.rivas1@gmail.com"></a> ricky.rivas1@gmail.com</li>
+        <li><strong>Telefono:</strong> +505 7777 0673</li>
+        <li><strong>Direcci&oacute;n:</strong>Managua/Nicaragua</li>
+      </ul>
+    </footer>
+  </body>
+</html>
